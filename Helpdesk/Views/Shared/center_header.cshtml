@@ -1,0 +1,220 @@
+﻿<ul class="nav navbar-nav">
+    <!-- Messages: style can be found in dropdown.less-->
+    <!--li class="dropdown messages-menu" disabled="disabled">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-flag-o"></i> // for envelope use this class='fa fa-envelope-o' 
+            <span class="label label-danger">5</span>  // <span class="label label-success">5</span>
+        </a>
+        <ul class="dropdown-menu">
+            <li class="header">5 New Changes Made</li>
+            <li>
+                // inner menu: contains the actual data
+                <ul class="menu">
+                    <li>
+                        // start message
+                        <a href="#">
+                            <div class="pull-left">
+                                <img src="~/Content/dist/img/user1-128x128.jpg" class="img-circle" alt="User Image">
+                            </div>
+                            <h4>
+                                Arsalan
+                                <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                            </h4>
+                            <p>Developed Complete Social Media Int.</p>
+                        </a>
+                    </li>// end message
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img src="~/Content/dist/img/paul_160x160.png" class="img-circle" alt="User Image">
+                            </div>
+                            <h4>
+                                Paul
+                                <small><i class="fa fa-clock-o"></i> 2 hours</small>
+                            </h4>
+                            <p>Responsible for Complete UI/UX</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img src="~/Content/dist/img/sadi_160x160.png" class="img-circle" alt="User Image">
+                            </div>
+                            <h4>
+                                Sadi
+                                <small><i class="fa fa-clock-o"></i> Last Week</small>
+                            </h4>
+                            <p>Completed the Front End Design!</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="pull-left">
+                                <img src="~/Content/dist/img/karan_160x160.jpg" class="img-circle" alt="User Image">
+                            </div>
+                            <h4>
+                                Karan
+                                <small><i class="fa fa-clock-o"></i> Today</small>
+                            </h4>
+                            <p>End User</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer"><a href="#">See All Messages</a></li>
+        </ul>
+    </li -->
+    <!-- * * * * * * *  here Messages Ends * * * * * * * -->
+
+
+
+    <!-- Notifications: style can be found in dropdown.less -->
+    <!--li class="dropdown notifications-menu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-bell-o"></i>
+            <span class="label label-success">3</span>
+        </a>
+        <ul class="dropdown-menu">
+            <li class="header">3 new notifications</li>
+            <li>
+                // inner menu: contains the actual data
+                <ul class="menu">
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-users text-aqua"></i>11 new posts today
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the page and may cause design problems
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-users text-red"></i> 117 new posts approved on 01-Oct-2016
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-shopping-cart text-green"></i> 5 Tasks Completed
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user text-red"></i> You created your user : arsalan
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="footer"><a href="#">View all</a></li>
+        </ul>
+    </li -->
+    <!-- * * * * * * *  here the notifications ends * * * * * * * -->
+     
+    <!-- User Account: style can be found in dropdown.less -->
+    <li class="dropdown user user-menu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <img src="~/Content/dist/img/user-01-160x160.png" class="user-image" alt="User Image">
+            <span class="hidden-xs">&nbsp;@ViewBag.UserName</span>
+        </a>
+        <ul class="dropdown-menu">
+            <!-- User image -->
+            <li class="user-header" style="height:75px">                
+                <p>Last Login <small>&nbsp; @ViewBag.LoggInTime</small></p>
+            </li>
+            <!-- Menu Footer-->
+            <li class="user-footer">
+                <div class="pull-left">
+                    <a href="@Url.Content("/Tickets/SignOut")" class="btn btn-default btn-flat">&nbsp;</a>
+                </div>
+                <div class="pull-right">
+                    <a href="@Url.Content("/Tickets/SignOut")"         class="btn btn-default btn-flat">Sign out</a>
+                </div>
+            </li>
+        </ul>
+    </li>
+    <!-- Control Sidebar Toggle Button -->
+    <li>
+        <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
+    </li>
+</ul>
+
+
+<!--
+    // Tasks: style can be found in dropdown.less 
+    <li class="dropdown tasks-menu">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+            <i class="fa fa-flag-o"></i>
+            <span class="label label-danger">0</span>
+        </a>
+        <ul class="dropdown-menu">
+            <li class="header">You have no new task</li>
+            <li>
+                // inner menu: contains the actual data 
+                <ul class="menu">
+                    <li>
+                        // Task item 
+                        <a href="#">
+                            <h3>
+                                1. Setup Project
+                                <small class="pull-right">20%</small>
+                            </h3>
+                            <div class="progress xs">
+                                <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                    <span class="sr-only">20% Complete</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li> //end task item 
+                    <li>
+                        // Task item 
+                        <a href="#">
+                            <h3>
+                                2. Set theme
+                                <small class="pull-right">40%</small>
+                            </h3>
+                            <div class="progress xs">
+                                <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                    <span class="sr-only">40% Complete</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>// end task item 
+                    <li>
+                        // Task item 
+                        <a href="#">
+                            <h3>
+                                3. Create DB and Populate
+                                <small class="pull-right">60%</small>
+                            </h3>
+                            <div class="progress xs">
+                                <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                    <span class="sr-only">60% Complete</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>// end task item 
+                    <li>
+                        // Task item 
+                        <a href="#">
+                            <h3>
+                                4. CURD on Table
+                                <small class="pull-right">80%</small>
+                            </h3>
+                            <div class="progress xs">
+                                <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                    <span class="sr-only">80% Complete</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>// end task item 
+                </ul>
+            </li>
+            <li class="footer">
+                <a href="#">View all tasks</a>
+            </li>
+        </ul>
+    </li>
+ 
+
+-->

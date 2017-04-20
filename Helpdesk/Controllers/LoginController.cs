@@ -21,5 +21,11 @@ namespace helpdesk.Controllers
             ViewBag.err = err;
             return View();
         }
+
+
+        public ActionResult Welcome()
+        {
+            return View();
+        }
     }
 }

@@ -12,7 +12,7 @@ namespace helpdesk.Controllers
 
        
         // GET: Login
-        public ActionResult Index(string id, int? x)
+        public ActionResult Index   (string id, int? x) 
         {
             int err = 0;
 
@@ -23,7 +23,7 @@ namespace helpdesk.Controllers
         }
 
 
-        public ActionResult Welcome()
+        public ActionResult Welcome ()                  
         {
             return View();
         }
